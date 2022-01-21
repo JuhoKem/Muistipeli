@@ -1,0 +1,58 @@
+.button {
+	-fx-background-color: #518eff;
+	-fx-text-fill: #efefef;
+	-fx-font-weight: bold;
+	-fx-label-padding: 5px;
+	-fx-font-size: 24px;
+}
+
+.text-field {
+	-fx-border-style: hidden;
+	-fx-background-color: #dddddd;
+}
+
+/*text-area*/
+.text-area {
+	-fx-background-color: transparent;
+}
+.text-area .scroll-pane {
+	-fx-background-color: transparent;
+}
+.text-area .scroll-pane .viewport {
+	-fx-background-color: transparent;
+}
+.text-area .scroll-pane .content {
+	-fx-background-color: transparent;
+}/*text-area*/
+
+.label{
+	-fx-font-size: 20px;
+	-fx-text-fill: #3e3e3e;
+}
+
+.text {
+	-fx-text-fill: #000000;
+	-fx-font-size: 20px;
+}
+
+#infoText {
+	-fx-font-size: 18px;
+}
+
+#loginSuccess {
+	-fx-text-fill: #04f92d;
+}
+
+#loginFailed {
+	-fx-text-fill: #f20000;
+	-fx-font-size: 10px;
+}
+
+#pelit .button{
+	-fx-pref-width: 450px;
+	-fx-pref-height: 300px;
+}
+.mmmm {
+    -fx-prompt-text-fill: #0B0A0A;
+}
+
